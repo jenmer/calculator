@@ -1,4 +1,4 @@
-# Calculator
+# **Calculator**
 
 The Calculator is a simple mathematical expression calculator that can evaluate expressions using basic arithmetic operations such as addition, subtraction, multiplication, and division. It is built using Express and Typescript, and it has been implemented with the commonjs configuration.
 
@@ -38,23 +38,25 @@ The Calculator has a single POST endpoint that receives a mathematical expressio
 
 You can use a tool like Insomnia to make a POST request to the endpoint with the following JSON payload:
 
+```
 {
 "expression": "2+(3\*4)/2"
 }
+```
 
 The response will be a JSON object with the following format:
-
+```
 {
 "result": 10
 }
-
+```
 ## Limitations
 
 The Calculator has the following limitations:
 
-    It only supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
-    It assumes that the input is a well-formed equation with at least one term.
-    The only term separator is the ().
+    - It only supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
+    - It assumes that the input is a well-formed equation with at least one term.
+    - The only term separator is the ().
 
 Author
 
